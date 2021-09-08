@@ -11,8 +11,6 @@ function openModal(id) {
     modalWindow.classList.add('show');
     modalWindow.classList.remove('hide');
 
-    
-
     // document.body.style.overflow = 'hidden';
     getData('db.json')
     .then(data => {

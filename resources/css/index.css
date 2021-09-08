@@ -36,3 +36,51 @@
     background-color: rgb(212, 140, 113);
 }
 
+.modal-add,
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #036779 !important;
+    padding-left: 10px;
+    max-height: 70%;
+    width: 55%;
+    margin: auto;
+    overflow-y: auto;
+    border-radius: 12px;
+    will-change: top, opacity;
+}
+
+.btn-addTask {
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn-modalAdd-apply,
+.btn-modalAdd-cancel,
+.btn-modal-edit,
+.btn-modal-cancel {
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+

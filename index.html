@@ -18,15 +18,16 @@
             <li><a href="badges.html">О компании</a></li>
             <li><a href="collapsible.html">Контакты</a></li>
           </ul>
-        <button class="btn btn-addTask">Добавить</button>
+        <button class="btn-addTask">Добавить</button>
 
         </div>
     </nav>
     <div class="finished"></div>
     <div class="unFinished"></div>
+    
     <div class="modal">
       <div class="modal_content">
-        <form id="modal_input">
+        <form  id="modal_input">
           <input class="inp-1" type="text" placeholder="Первый параметр" form="modal_input">
           <input class="inp-2" type="text" placeholder="Второй параметр" form="modal_input">
         </form>
@@ -34,6 +35,22 @@
         <button class="btn-modal-cancel">Отмена</button>
       </div>
     </div>
+
+    <div class="modal-add">
+      <div class="modal-add-content">
+        <form class="modalAdd-input-form" id="modal-input-add">
+          <input class="inp-add-1" type="text" placeholder="taskTitle" form="modal-input-add">
+          <input class="inp-add-2" type="text" placeholder="taskText" form="modal-input-add">
+          <input class="inp-add-3" type="text" placeholder="IsFinished" form="modal-input-add">
+          <input class="inp-add-4" type="text" placeholder="date" form="modal-input-add">
+          <input class="inp-add-5" type="text" placeholder="color" form="modal-input-add">
+          <button type="submit" class="btn-modalAdd-apply">Применить</button>
+        </form>
+        
+        <button class="btn-modalAdd-cancel">Отмена</button>
+      </div>
+    </div>
+
     <footer class="page-footer grey darken-1">
         <div class="container_footer">
           <div class="row">

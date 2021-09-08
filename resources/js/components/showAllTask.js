@@ -2,6 +2,7 @@ import { getData } from "../services/getData.js";
 import {cardsTrueHTML} from "./cardsTrueHTML.js";
 import {cardsFalseHTML} from "./cardsFalseHTML.js";
 import {modal} from "./modal.js";
+import {modalAddTask} from "./modalAdd.js";
 
 
 function showAllTask() {
@@ -20,7 +21,8 @@ function showAllTask() {
         });
         resolve();
     })
-    .then(modal()));
+    .then(modal())
+    .then(modalAddTask()));
 }
 
 export {showAllTask};
