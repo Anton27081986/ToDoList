@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 115px; */
+}
+
+.widthCard {
+    min-width: 300px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.nav-wrapper {
+    background-color: cadetblue;
+}
+
+.page-footer {
+    background: cadetblue;
+}
+
+.show {
+    top: 100px;
+    display: block !important;
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+}
+
+.finished {
+    background-color: rgb(176, 198, 199);
+}
+
+.unFinished {
+    background-color: rgb(212, 140, 113);
+}
+
