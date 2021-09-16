@@ -1,14 +1,6 @@
 {
   "task": [
     {
-      "taskTitle": "Сходить на работу",
-      "taskText": "На велосипеде",
-      "IsFinished": "false",
-      "date": "2021-08-30",
-      "color": "#218e0b",
-      "id": 1
-    },
-    {
       "taskTitle": "Полить цветы",
       "taskText": "В квартире",
       "IsFinished": "false",
@@ -25,14 +17,6 @@
       "id": 3
     },
     {
-      "taskTitle": "Гулять ",
-      "taskText": "По улице",
-      "IsFinished": "true",
-      "date": "2021-08-30",
-      "color": "#218e0b",
-      "id": 4
-    },
-    {
       "id": 5
     },
     {
@@ -43,6 +27,30 @@
     },
     {
       "id": 8
+    },
+    {
+      "modal-input-add": "sdfsfs",
+      "id": 9
+    },
+    {
+      "modal-input-add": "wefwe",
+      "id": 10
+    },
+    {
+      "taskTitle": "ывыв",
+      "taskText": "ыфвф",
+      "IsFinished": "",
+      "date": "фывфыв",
+      "color": "фывф",
+      "id": 11
+    },
+    {
+      "taskTitle": "1111111",
+      "taskText": "1111111",
+      "IsFinished": "true",
+      "date": "111111",
+      "color": "11111",
+      "id": 12
     }
   ]
 }

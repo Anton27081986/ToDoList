@@ -1,10 +1,13 @@
 import { addTask } from "./postTask.js";
+import { deleteTask } from "./deleteTask.js";
 
 
 const btnAdd = document.querySelector('.btn-addTask'),
       modalAdd = document.querySelector('.modal-add'),
       btnModalAddCancel = document.querySelector('.btn-modalAdd-cancel'),
-      btnModalAddApply = document.querySelector('.btn-modalAdd-apply');
+      btnModalAddApply = document.querySelector('.btn-modalAdd-apply'),
+      btnDelete = document.querySelector('.btnDel');
+
 
 function openModalAddTask() {
     modalAdd.classList.add('show');
@@ -43,6 +46,9 @@ function modalAddTask() {
         // closeModalAddTask();
     });
 
+    // btnDelete.addEventListener('click', () => {
+    //     deleteTask();
+    // });
 
 }
 

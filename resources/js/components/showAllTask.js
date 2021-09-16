@@ -3,6 +3,7 @@ import {cardsTrueHTML} from "./cardsTrueHTML.js";
 import {cardsFalseHTML} from "./cardsFalseHTML.js";
 import {modal} from "./modal.js";
 import {modalAddTask} from "./modalAdd.js";
+import {deleteTask} from "./deleteTask.js";
 
 
 function showAllTask() {
@@ -22,7 +23,9 @@ function showAllTask() {
         resolve();
     })
     .then(modal())
-    .then(modalAddTask()));
+    .then(modalAddTask())
+    .then(deleteTask()));
+    
 }
 
 export {showAllTask};

@@ -11,25 +11,7 @@ function addTask() {
         
         postData('http://localhost:3000/task', json);
     });
-    // postData('http://localhost:3000/task', JSON.stringify({
-    //     taskTitle: document.querySelector('.inp-add-1').value,
-    //     taskText: document.querySelector('.inp-add-2').value,
-    //     IsFinished: document.querySelector('.inp-add-3').value,
-    //     date: document.querySelector('.inp-add-4').value,
-    //     color: document.querySelector('.inp-add-5').value,
-    //     id: 1
-    //   }));
-
 }
 
 export {addTask};
-
-// {
-//     "taskTitle": "Сходить на работу",
-//     "taskText": "На машине",
-//     "IsFinished": "false",
-//     "date": "2021-08-30",
-//     "color": "#218e0b",
-//     "id": 1
-//   }
 

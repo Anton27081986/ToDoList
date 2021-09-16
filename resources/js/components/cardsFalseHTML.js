@@ -12,7 +12,7 @@ function cardsFalseHTML(item) {
                     </div>
                     <div class="card-action">
                     <a href="#">Сделано</a>
-                    <a href="#">Удалить</a>
+                    <button class = "btnDel">Удалить</button>
                     <button class="btn">Редактировать</button>
                     </div>
                 </div>
